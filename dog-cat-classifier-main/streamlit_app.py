@@ -6,8 +6,7 @@ import numpy as np
 # --- Add this function to load the model ---
 @st.cache_resource
 def load_model():
-    # Replace 'dog_cat_cnn_model.h5' with the actual name of your saved model file
-    model = tf.keras.models.load_model('dog_cat_cnn_model.h5')
+    model = tf.keras.models.load_model('dog_cat_final_model.keras')
     return model
 
 # --- Load the model at the start of the app ---
